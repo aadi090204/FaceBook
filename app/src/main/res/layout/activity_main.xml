@@ -1,0 +1,98 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:background="#4267B2"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="163dp"
+            android:layout_height="53dp"
+            android:background="#4267B2">
+
+
+            <TextView
+                android:layout_width="168dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="FACEBOOK"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:background="#4267B2"
+            android:gravity="right">
+
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="43dp"
+                android:background="@drawable/baseline_content_paste_search_24"
+                android:layout_gravity="left"
+                />
+
+
+            <View
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:background="#64768C" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!-- Post Content -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a sample post content."
+        android:layout_marginTop="5dp" />
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Like"
+            android:textColor="#3b5998"
+            android:layout_marginEnd="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comment"
+            android:textColor="#3b5998"
+            android:layout_marginEnd="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:textColor="#3b5998" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+    </LinearLayout>
